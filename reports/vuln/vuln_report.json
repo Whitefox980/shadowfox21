@@ -1,0 +1,137 @@
+{
+  "module": "vulnerability_scanner",
+  "scan_info": {
+    "timestamp": "2025-06-04T20:56:57.184086",
+    "input_file": "reports/recon/recon_report.json",
+    "threads": 15,
+    "timeout": 10,
+    "checks_performed": 13
+  },
+  "risk_assessment": {
+    "overall_risk_level": "MEDIUM",
+    "total_risk_score": 23,
+    "critical_high_count": 2,
+    "medium_count": 1,
+    "low_info_count": 1
+  },
+  "statistics": {
+    "total_vulnerabilities_found": 4,
+    "checks_performed": 13,
+    "errors_encountered": 0
+  },
+  "vulnerabilities_by_severity": {
+    "critical_high": [
+      {
+        "vulnerability": "Default Credentials",
+        "category": "authentication_bypass",
+        "severity": "critical",
+        "cve": "N/A",
+        "description": "Default credentials accepted",
+        "url": "https://web3.sdx.com/admin/",
+        "evidence": "Default credentials work: admin/admin",
+        "credentials": "admin:admin",
+        "response_code": 302
+      },
+      {
+        "vulnerability": "Default Credentials",
+        "category": "authentication_bypass",
+        "severity": "critical",
+        "cve": "N/A",
+        "description": "Default credentials accepted",
+        "url": "https://web3.sdx.com/wp-admin/",
+        "evidence": "Default credentials work: admin/admin",
+        "credentials": "admin:admin",
+        "response_code": 302
+      }
+    ],
+    "medium": [
+      {
+        "vulnerability": "WordPress Outdated",
+        "category": "web_technologies",
+        "severity": "medium",
+        "cve": "Multiple CVE-s",
+        "description": "Outdated WordPress installation detected",
+        "url": "https://web3.sdx.com/readme.html",
+        "evidence": "Found indicator: wordpress",
+        "response_code": 200,
+        "response_length": 7409
+      }
+    ],
+    "low_info": [
+      {
+        "vulnerability": "Missing Security Headers",
+        "category": "security_headers",
+        "severity": "low",
+        "cve": "N/A",
+        "description": "Missing security headers",
+        "url": "https://web3.sdx.com",
+        "evidence": "Missing headers: content-security-policy",
+        "missing_headers": [
+          "content-security-policy"
+        ]
+      }
+    ]
+  },
+  "all_vulnerabilities": [
+    {
+      "vulnerability": "Missing Security Headers",
+      "category": "security_headers",
+      "severity": "low",
+      "cve": "N/A",
+      "description": "Missing security headers",
+      "url": "https://web3.sdx.com",
+      "evidence": "Missing headers: content-security-policy",
+      "missing_headers": [
+        "content-security-policy"
+      ]
+    },
+    {
+      "vulnerability": "WordPress Outdated",
+      "category": "web_technologies",
+      "severity": "medium",
+      "cve": "Multiple CVE-s",
+      "description": "Outdated WordPress installation detected",
+      "url": "https://web3.sdx.com/readme.html",
+      "evidence": "Found indicator: wordpress",
+      "response_code": 200,
+      "response_length": 7409
+    },
+    {
+      "vulnerability": "Default Credentials",
+      "category": "authentication_bypass",
+      "severity": "critical",
+      "cve": "N/A",
+      "description": "Default credentials accepted",
+      "url": "https://web3.sdx.com/admin/",
+      "evidence": "Default credentials work: admin/admin",
+      "credentials": "admin:admin",
+      "response_code": 302
+    },
+    {
+      "vulnerability": "Default Credentials",
+      "category": "authentication_bypass",
+      "severity": "critical",
+      "cve": "N/A",
+      "description": "Default credentials accepted",
+      "url": "https://web3.sdx.com/wp-admin/",
+      "evidence": "Default credentials work: admin/admin",
+      "credentials": "admin:admin",
+      "response_code": 302
+    }
+  ],
+  "errors": [],
+  "recommendations": [
+    {
+      "issue": "Missing Security Headers",
+      "count": 1,
+      "recommendation": "Implement proper security headers",
+      "priority": "MEDIUM"
+    },
+    {
+      "issue": "Default Credentials",
+      "count": 2,
+      "recommendation": "Change all default credentials immediately",
+      "priority": "CRITICAL"
+    }
+  ]
+}

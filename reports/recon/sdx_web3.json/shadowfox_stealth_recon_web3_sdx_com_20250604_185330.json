@@ -1,0 +1,607 @@
+{
+  "shadowfox_recon_agent": {
+    "target_info": {
+      "target_url": "https://web3.sdx.com",
+      "domain": "web3.sdx.com",
+      "scan_start": "2025-06-04T18:51:22.642911",
+      "agent_version": "ShadowFox21-StealthRecon-v1.0",
+      "scan_end": "2025-06-04T18:53:30.190649",
+      "duration_seconds": 127.54780507087708
+    },
+    "network_info": {
+      "dns": {
+        "A": [
+          "20.250.65.60"
+        ],
+        "AAAA": [],
+        "MX": [],
+        "NS": [],
+        "TXT": [],
+        "CNAME": [
+          "tm001m021.trafficmanager.net."
+        ]
+      },
+      "whois": {
+        "domain_name": "SDX.COM",
+        "registrar": "GoDaddy.com, LLC",
+        "creation_date": "1996-02-09 05:00:00",
+        "expiration_date": "2029-02-10 05:00:00",
+        "name_servers": [
+          "NS1-07.AZURE-DNS.COM",
+          "NS2-07.AZURE-DNS.NET",
+          "NS3-07.AZURE-DNS.ORG",
+          "NS4-07.AZURE-DNS.INFO"
+        ],
+        "emails": "abuse@godaddy.com",
+        "organization": null,
+        "country": null
+      },
+      "open_ports": [
+        21,
+        22,
+        23,
+        25,
+        53,
+        80,
+        110,
+        143,
+        443,
+        993,
+        995,
+        8080,
+        8443
+      ],
+      "subdomains": []
+    },
+    "web_analysis": {
+      "status_code": 200,
+      "headers": {
+        "Date": "Wed, 04 Jun 2025 18:51:39 GMT",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "Set-Cookie": "affinity_cookieCORS=be707beb69bebe37f29dc1660aa2ca49; Path=/; SameSite=None; Secure, affinity_cookie=be707beb69bebe37f29dc1660aa2ca49; Path=/, ARRAffinity=ced220ed8d4539a274b6f13120fbe8de9696af6b631933a239b98a6b21607003;Path=/;HttpOnly;Secure;Domain=web3.sdx.com, ARRAffinitySameSite=ced220ed8d4539a274b6f13120fbe8de9696af6b631933a239b98a6b21607003;Path=/;HttpOnly;SameSite=None;Secure;Domain=web3.sdx.com",
+        "Cache-Control": "max-age=3600, public",
+        "Content-Encoding": "gzip",
+        "ETag": "\"506aaefa0a6882e19d5d5a8799d132e7\"",
+        "Last-Modified": "Wed, 04 Jun 2025 18:51:39 GMT",
+        "Pragma": "public",
+        "Vary": "Accept-Encoding",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin",
+        "Permissions-Policy": "geolocation=(),midi=(),sync-xhr=(),microphone=(),camera=(),magnetometer=(),gyroscope=(),fullscreen=(self)"
+      },
+      "content_length": 150274,
+      "response_time": 2.235837,
+      "final_url": "https://web3.sdx.com/",
+      "meta_tags": {
+        "viewport": "width=device-width, initial-scale=1",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+        "description": "SDX Web3: offering digital assets custody and infrastructure services for institutional clients who want to scale their digital asset business.",
+        "og:locale": "en_US",
+        "og:type": "website",
+        "og:title": "SDX Web3 - SDX Web3",
+        "og:description": "At SDX Web3, we enable banks and other institutions to focus on their core business by providing efficient access to digital asset markets.",
+        "og:url": "https://web3.sdx.com/",
+        "og:site_name": "SDX Web3",
+        "article:modified_time": "2024-12-16T10:21:42+00:00",
+        "og:image": "https://web3.sdx.com/wp-content/uploads/2023/04/WEB3_FeaturedImage.jpg",
+        "og:image:width": "2000",
+        "og:image:height": "1000",
+        "og:image:type": "image/jpeg",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "SDX Web3 - SDX Web3",
+        "twitter:description": "At SDX Web3, we enable banks and other institutions to focus on their core business by providing efficient access to digital asset markets.",
+        "twitter:image": "https://web3.sdx.com/wp-content/uploads/2023/04/WEB3_FeaturedImage.jpg",
+        "google-site-verification": "Oi7Wb0u5j0ud7J_us3vi6GKFkxdkVTKTFoGECZz1c_4",
+        "generator": "Elementor 3.27.0; features: additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap",
+        "theme-color": "#FFFFFF",
+        "msapplication-TileImage": "/wp-content/uploads/2023/05/Infinite-Possibilities-1-1-300x300.png"
+      },
+      "title": "Web3 Services | SDX Web3",
+      "internal_links": [
+        "https://web3.sdx.com/cookies/",
+        "https://web3.sdx.com/terms-of-use/",
+        "https://web3.sdx.com/why-join-sdx-web3/",
+        "https://web3.sdx.com/contact-us/",
+        "https://web3.sdx.com#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjYwMiIsInRvZ2dsZSI6ZmFsc2V9",
+        "https://web3.sdx.com/digital-collateral-service/",
+        "https://web3.sdx.com/request-a-demo/",
+        "https://web3.sdx.com/request-a-demo",
+        "https://web3.sdx.com/wp-content/uploads/2024/12/SDX_Web3_Overview_Brochure.pdf",
+        "https://web3.sdx.com/privacy-statement/",
+        "https://web3.sdx.com",
+        "https://web3.sdx.com/dlt-finance/",
+        "https://web3.sdx.com#content",
+        "https://web3.sdx.com/crypto-custody/",
+        "https://web3.sdx.com/rulematch/",
+        "https://web3.sdx.com/crypto-trading/"
+      ],
+      "forms": [],
+      "emails": [
+        "web3@sdx.com"
+      ],
+      "phones": [
+        "1737396849",
+        "1737396848"
+      ],
+      "directories": [
+        {
+          "path": "/admin/",
+          "status_code": 200,
+          "size": 155
+        },
+        {
+          "path": "/dashboard/",
+          "status_code": 200,
+          "size": 155
+        },
+        {
+          "path": "/wp-admin/",
+          "status_code": 200,
+          "size": 155
+        }
+      ]
+    },
+    "technology_stack": {
+      "detected_technologies": [
+        "jQuery",
+        "Font Awesome",
+        "Angular",
+        "Google Analytics",
+        "WordPress",
+        "Vue.js"
+      ],
+      "count": 6
+    },
+    "vulnerabilities": {},
+    "stealth_metrics": {
+      "total_requests": 36,
+      "total_errors": 1,
+      "user_agents_rotations": true,
+      "proxy_usage": false,
+      "average_delay": 2.0
+    }
+  },
+  "execution_logs": [
+    {
+      "timestamp": "2025-06-04T18:51:22.642854",
+      "type": "info",
+      "message": "🚀 Starting full stealth reconnaissance..."
+    },
+    {
+      "timestamp": "2025-06-04T18:51:22.642927",
+      "type": "info",
+      "message": "Starting DNS reconnaissance..."
+    },
+    {
+      "timestamp": "2025-06-04T18:51:24.407961",
+      "type": "info",
+      "message": "DNS records found: 6 types"
+    },
+    {
+      "timestamp": "2025-06-04T18:51:24.408226",
+      "type": "info",
+      "message": "Starting WHOIS reconnaissance..."
+    },
+    {
+      "timestamp": "2025-06-04T18:51:26.711760",
+      "type": "info",
+      "message": "WHOIS data collected"
+    },
+    {
+      "timestamp": "2025-06-04T18:51:26.711879",
+      "type": "info",
+      "message": "Starting basic port scan..."
+    },
+    {
+      "timestamp": "2025-06-04T18:51:27.201353",
+      "type": "info",
+      "message": "Port 21 is open"
+    },
+    {
+      "timestamp": "2025-06-04T18:51:27.681926",
+      "type": "info",
+      "message": "Port 22 is open"
+    },
+    {
+      "timestamp": "2025-06-04T18:51:28.161144",
+      "type": "info",
+      "message": "Port 23 is open"
+    },
+    {
+      "timestamp": "2025-06-04T18:51:28.640918",
+      "type": "info",
+      "message": "Port 25 is open"
+    },
+    {
+      "timestamp": "2025-06-04T18:51:29.122626",
+      "type": "info",
+      "message": "Port 53 is open"
+    },
+    {
+      "timestamp": "2025-06-04T18:51:29.540699",
+      "type": "info",
+      "message": "Port 80 is open"
+    },
+    {
+      "timestamp": "2025-06-04T18:51:29.982890",
+      "type": "info",
+      "message": "Port 110 is open"
+    },
+    {
+      "timestamp": "2025-06-04T18:51:30.562538",
+      "type": "info",
+      "message": "Port 143 is open"
+    },
+    {
+      "timestamp": "2025-06-04T18:51:31.042410",
+      "type": "info",
+      "message": "Port 443 is open"
+    },
+    {
+      "timestamp": "2025-06-04T18:51:31.521348",
+      "type": "info",
+      "message": "Port 993 is open"
+    },
+    {
+      "timestamp": "2025-06-04T18:51:31.944558",
+      "type": "info",
+      "message": "Port 995 is open"
+    },
+    {
+      "timestamp": "2025-06-04T18:51:32.400919",
+      "type": "info",
+      "message": "Port 8080 is open"
+    },
+    {
+      "timestamp": "2025-06-04T18:51:32.881407",
+      "type": "info",
+      "message": "Port 8443 is open"
+    },
+    {
+      "timestamp": "2025-06-04T18:51:32.882441",
+      "type": "info",
+      "message": "Found 13 open ports"
+    },
+    {
+      "timestamp": "2025-06-04T18:51:32.882803",
+      "type": "info",
+      "message": "Starting SSL/TLS analysis..."
+    },
+    {
+      "timestamp": "2025-06-04T18:51:34.562681",
+      "type": "error",
+      "message": "SSL analysis failed: 'subject'"
+    },
+    {
+      "timestamp": "2025-06-04T18:51:34.570839",
+      "type": "info",
+      "message": "Starting web reconnaissance..."
+    },
+    {
+      "timestamp": "2025-06-04T18:51:39.711673",
+      "type": "request",
+      "method": "GET",
+      "url": "https://web3.sdx.com",
+      "status_code": 200
+    },
+    {
+      "timestamp": "2025-06-04T18:51:39.813616",
+      "type": "info",
+      "message": "Web reconnaissance completed"
+    },
+    {
+      "timestamp": "2025-06-04T18:51:39.813838",
+      "type": "info",
+      "message": "Starting technology detection..."
+    },
+    {
+      "timestamp": "2025-06-04T18:51:42.078372",
+      "type": "request",
+      "method": "GET",
+      "url": "https://web3.sdx.com",
+      "status_code": 200
+    },
+    {
+      "timestamp": "2025-06-04T18:51:42.086895",
+      "type": "info",
+      "message": "Detected 6 technologies"
+    },
+    {
+      "timestamp": "2025-06-04T18:51:42.087231",
+      "type": "info",
+      "message": "Starting subdomain enumeration..."
+    },
+    {
+      "timestamp": "2025-06-04T18:51:47.606557",
+      "type": "info",
+      "message": "Found 0 subdomains"
+    },
+    {
+      "timestamp": "2025-06-04T18:51:47.607132",
+      "type": "info",
+      "message": "Starting directory discovery..."
+    },
+    {
+      "timestamp": "2025-06-04T18:51:52.001473",
+      "type": "request",
+      "method": "GET",
+      "url": "https://web3.sdx.com/admin/",
+      "status_code": 200
+    },
+    {
+      "timestamp": "2025-06-04T18:51:52.001626",
+      "type": "info",
+      "message": "Found directory: /admin/ (200)"
+    },
+    {
+      "timestamp": "2025-06-04T18:51:54.549719",
+      "type": "request",
+      "method": "GET",
+      "url": "https://web3.sdx.com/administrator/",
+      "status_code": 404
+    },
+    {
+      "timestamp": "2025-06-04T18:51:58.295431",
+      "type": "request",
+      "method": "GET",
+      "url": "https://web3.sdx.com/login/",
+      "status_code": 403
+    },
+    {
+      "timestamp": "2025-06-04T18:52:01.279171",
+      "type": "request",
+      "method": "GET",
+      "url": "https://web3.sdx.com/panel/",
+      "status_code": 404
+    },
+    {
+      "timestamp": "2025-06-04T18:52:04.889559",
+      "type": "request",
+      "method": "GET",
+      "url": "https://web3.sdx.com/dashboard/",
+      "status_code": 200
+    },
+    {
+      "timestamp": "2025-06-04T18:52:04.889899",
+      "type": "info",
+      "message": "Found directory: /dashboard/ (200)"
+    },
+    {
+      "timestamp": "2025-06-04T18:52:08.091675",
+      "type": "request",
+      "method": "GET",
+      "url": "https://web3.sdx.com/wp-admin/",
+      "status_code": 200
+    },
+    {
+      "timestamp": "2025-06-04T18:52:08.092156",
+      "type": "info",
+      "message": "Found directory: /wp-admin/ (200)"
+    },
+    {
+      "timestamp": "2025-06-04T18:52:10.624575",
+      "type": "request",
+      "method": "GET",
+      "url": "https://web3.sdx.com/wp-login/",
+      "status_code": 404
+    },
+    {
+      "timestamp": "2025-06-04T18:52:13.616262",
+      "type": "request",
+      "method": "GET",
+      "url": "https://web3.sdx.com/phpmyadmin/",
+      "status_code": 403
+    },
+    {
+      "timestamp": "2025-06-04T18:52:15.920900",
+      "type": "request",
+      "method": "GET",
+      "url": "https://web3.sdx.com/cpanel/",
+      "status_code": 404
+    },
+    {
+      "timestamp": "2025-06-04T18:52:18.445838",
+      "type": "request",
+      "method": "GET",
+      "url": "https://web3.sdx.com/backup/",
+      "status_code": 404
+    },
+    {
+      "timestamp": "2025-06-04T18:52:21.104288",
+      "type": "request",
+      "method": "GET",
+      "url": "https://web3.sdx.com/backups/",
+      "status_code": 404
+    },
+    {
+      "timestamp": "2025-06-04T18:52:24.323571",
+      "type": "request",
+      "method": "GET",
+      "url": "https://web3.sdx.com/old/",
+      "status_code": 404
+    },
+    {
+      "timestamp": "2025-06-04T18:52:27.499619",
+      "type": "request",
+      "method": "GET",
+      "url": "https://web3.sdx.com/tmp/",
+      "status_code": 404
+    },
+    {
+      "timestamp": "2025-06-04T18:52:30.061777",
+      "type": "request",
+      "method": "GET",
+      "url": "https://web3.sdx.com/temp/",
+      "status_code": 404
+    },
+    {
+      "timestamp": "2025-06-04T18:52:33.582104",
+      "type": "request",
+      "method": "GET",
+      "url": "https://web3.sdx.com/test/",
+      "status_code": 404
+    },
+    {
+      "timestamp": "2025-06-04T18:52:35.596237",
+      "type": "request",
+      "method": "GET",
+      "url": "https://web3.sdx.com/dev/",
+      "status_code": 404
+    },
+    {
+      "timestamp": "2025-06-04T18:52:38.369136",
+      "type": "request",
+      "method": "GET",
+      "url": "https://web3.sdx.com/staging/",
+      "status_code": 404
+    },
+    {
+      "timestamp": "2025-06-04T18:52:40.609010",
+      "type": "request",
+      "method": "GET",
+      "url": "https://web3.sdx.com/beta/",
+      "status_code": 404
+    },
+    {
+      "timestamp": "2025-06-04T18:52:43.571024",
+      "type": "request",
+      "method": "GET",
+      "url": "https://web3.sdx.com/api/",
+      "status_code": 404
+    },
+    {
+      "timestamp": "2025-06-04T18:52:47.018546",
+      "type": "request",
+      "method": "GET",
+      "url": "https://web3.sdx.com/v1/",
+      "status_code": 404
+    },
+    {
+      "timestamp": "2025-06-04T18:52:50.828218",
+      "type": "request",
+      "method": "GET",
+      "url": "https://web3.sdx.com/v2/",
+      "status_code": 404
+    },
+    {
+      "timestamp": "2025-06-04T18:52:53.781462",
+      "type": "request",
+      "method": "GET",
+      "url": "https://web3.sdx.com/rest/",
+      "status_code": 404
+    },
+    {
+      "timestamp": "2025-06-04T18:52:55.974038",
+      "type": "request",
+      "method": "GET",
+      "url": "https://web3.sdx.com/images/",
+      "status_code": 404
+    },
+    {
+      "timestamp": "2025-06-04T18:52:59.250568",
+      "type": "request",
+      "method": "GET",
+      "url": "https://web3.sdx.com/img/",
+      "status_code": 404
+    },
+    {
+      "timestamp": "2025-06-04T18:53:02.411280",
+      "type": "request",
+      "method": "GET",
+      "url": "https://web3.sdx.com/css/",
+      "status_code": 404
+    },
+    {
+      "timestamp": "2025-06-04T18:53:04.646361",
+      "type": "request",
+      "method": "GET",
+      "url": "https://web3.sdx.com/js/",
+      "status_code": 404
+    },
+    {
+      "timestamp": "2025-06-04T18:53:07.245929",
+      "type": "request",
+      "method": "GET",
+      "url": "https://web3.sdx.com/assets/",
+      "status_code": 404
+    },
+    {
+      "timestamp": "2025-06-04T18:53:10.730492",
+      "type": "request",
+      "method": "GET",
+      "url": "https://web3.sdx.com/uploads/",
+      "status_code": 404
+    },
+    {
+      "timestamp": "2025-06-04T18:53:14.247029",
+      "type": "request",
+      "method": "GET",
+      "url": "https://web3.sdx.com/files/",
+      "status_code": 404
+    },
+    {
+      "timestamp": "2025-06-04T18:53:17.514747",
+      "type": "request",
+      "method": "GET",
+      "url": "https://web3.sdx.com/documents/",
+      "status_code": 404
+    },
+    {
+      "timestamp": "2025-06-04T18:53:19.464551",
+      "type": "request",
+      "method": "GET",
+      "url": "https://web3.sdx.com/download/",
+      "status_code": 404
+    },
+    {
+      "timestamp": "2025-06-04T18:53:22.891731",
+      "type": "request",
+      "method": "GET",
+      "url": "https://web3.sdx.com/config/",
+      "status_code": 404
+    },
+    {
+      "timestamp": "2025-06-04T18:53:26.371912",
+      "type": "request",
+      "method": "GET",
+      "url": "https://web3.sdx.com/conf/",
+      "status_code": 404
+    },
+    {
+      "timestamp": "2025-06-04T18:53:30.189528",
+      "type": "request",
+      "method": "GET",
+      "url": "https://web3.sdx.com/configuration/",
+      "status_code": 404
+    },
+    {
+      "timestamp": "2025-06-04T18:53:30.190272",
+      "type": "info",
+      "message": "Found 3 directories"
+    },
+    {
+      "timestamp": "2025-06-04T18:53:30.190947",
+      "type": "info",
+      "message": "✅ Full reconnaissance completed in 127.55 seconds"
+    }
+  ],
+  "configuration": {
+    "stealth_mode": true,
+    "max_threads": 5,
+    "request_delay": [
+      1.0,
+      3.0
+    ],
+    "timeout": 15,
+    "max_retries": 3,
+    "rotate_user_agents": true,
+    "use_proxies": false,
+    "deep_scan": true,
+    "verify_ssl": false
+  }
+}
